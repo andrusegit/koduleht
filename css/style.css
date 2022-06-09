@@ -1,0 +1,90 @@
+
+body {
+  background-color: #4088d4;
+  font-family: Garamond, serif;
+}
+
+
+
+.content-block {
+  float:left; 
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background-image: linear-gradient(to right, white, lightgray);
+  color: darkblue;
+  box-shadow: 5px 10px 20px rgba(30,30,30, .5);
+  margin: 20px;
+  padding: 10px;
+ 
+}
+
+
+.contact {
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+header {
+  height: 110px;
+}
+
+header h1 {
+  float:left;
+  font-weight: bold;
+  font-family: Papyrus, fantasy;
+  color: lightblue;
+  /* font-style: italic; */
+  font-size: 400%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.zoom {
+  position: static;
+  transition: transform .5s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform-origin: top left;
+  transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.content-block h1 {
+  font-weight: bold;
+}
+
+
+footer {
+  color: darkblue;
+  font-size: medium;
+  clear: both;
+  position: relative;
+}
+
+footer h1 {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer p {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
